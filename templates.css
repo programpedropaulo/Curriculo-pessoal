@@ -1,0 +1,42 @@
+/* Estilos gerais para o nav (barra de navegação) */
+nav {
+    display: flex; /* Utiliza o Flexbox para distribuir os elementos horizontalmente */
+    justify-content: space-between; /* Espaça as listas de navegação com espaço entre elas */
+    padding: 10px; /* Adiciona um espaçamento interno em torno da barra de navegação */
+    background-color: #f4f4f4; /* Cor de fundo clara para o nav */
+    border-bottom: 2px solid #ddd; /* Adiciona uma borda inferior para destacar o nav */
+}
+
+/* Remove as bolinhas de lista e formata as listas para ficarem horizontalmente */
+nav ul {
+    list-style: none; /* Remove os marcadores de lista (bolinhas) */
+    display: flex; /* Exibe os itens da lista horizontalmente */
+    gap: 15px; /* Espaçamento de 15px entre cada item da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+}
+
+/* Estilos para os links de navegação */
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Define a cor do texto dos links como um cinza escuro */
+    font-size: 18px; /* Define o tamanho da fonte para 18px */
+    padding: 8px 12px; /* Adiciona espaçamento interno aos links para facilitar o clique */
+    transition: background-color 0.3s, color 0.3s; /* Suaviza a transição de cor ao passar o mouse */
+}
+
+/* Estilos quando o link estiver em hover (quando o mouse passar por cima) */
+nav ul li a:hover {
+    background-color: #007bff; /* Muda o fundo do link para azul quando o mouse passa por cima */
+    color: white; /* Muda a cor do texto para branco no hover */
+    border-radius: 4px; /* Adiciona bordas arredondadas nos cantos do link */
+}
+
+/* Estilos para o iframe (área de exibição dos templates) */
+iframe {
+    margin-top: 20px; /* Espaçamento de 20px acima do iframe */
+    border: 2px solid #ddd; /* Define uma borda cinza clara ao redor do iframe */
+    border-radius: 4px; /* Arredonda os cantos da borda do iframe */
+    width: 100%;
+
+
