@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgb(91, 50, 66);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    ;
+}
+
+.container {
+    max-width: 210mm;
+    height: 297mm;
+    margin: auto;
+    background-color: rgb(161, 94, 120);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    page-break-after: always;
+}
+
+section {
+    color: aqua;
+    max-width: 800px;
+    margin: auto;
+}
+
+@media print {
+    body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        box-shadow: none;
+    }
+}
